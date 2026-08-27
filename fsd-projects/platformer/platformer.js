@@ -37,8 +37,8 @@ $(function () {
     createBadPlatform(0, 720, 2990, 20)
     createPlatform(1200, 370, 20, 20, "purple" )
     createPlatform(500, 370, 700, 20, "purple")
-    createPlatform(500, 370, 20, -80, "purple")
-    createPlatform(1200, 510, 200, -8)
+    createPlatform(500, 370, 20, -800, "purple")
+    createPlatform(1200, 510, 200, -8, "purple")
 
 
 
