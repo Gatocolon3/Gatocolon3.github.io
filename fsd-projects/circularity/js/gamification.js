@@ -531,16 +531,16 @@ function updatePlayer1() {
 
   // Check for WASD key presses
   if (keys["w"]) {
-    player1.y -= 3;
+    player1.y -= .1;
   }
   if (keys["s"]) {
-    player1.y += 3;
+    player1.y += .1;
   }
   if (keys["a"]) {
-    player1.x -= 3;
+    player1.x -= .1;
   }
   if (keys["d"]) {
-    player1.x += 3;
+    player1.x += .1;
   }
 
   // Keep player in bounds (wrap around screen)
@@ -553,16 +553,16 @@ function updatePlayer2() {
 
   // Check for arrow key presses (using lowercase as set by keyboard handler)
   if (keys["arrowup"]) {
-    player2.y -= 3;
+    player2.y -= .1;
   }
   if (keys["arrowdown"]) {
-    player2.y += 3;
+    player2.y += .1;
   }
   if (keys["arrowleft"]) {
-    player2.x -= 3;
+    player2.x -= .1;
   }
   if (keys["arrowright"]) {
-    player2.x += 3;
+    player2.x += .1;
   }
 
   // Keep player in bounds (wrap around screen)
