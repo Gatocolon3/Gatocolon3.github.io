@@ -54,7 +54,7 @@ $(document).ready(function () {
       currentShape.goodBehavior = "spin"
     }
   }
-
+//t
   // TODO 3-a: add a function that handles the static display type
   function handleStatic(data){
     setBackgroundWithObject(data)
@@ -63,7 +63,7 @@ $(document).ready(function () {
 
   // TODO 4-a: add a function that handles the good display type
   function handleGood(color, shape, repeat){
-    setBackgroundWithSimple(color, shape ,repeat)
+    setBackgroundWithSimple(color, shape, repeat)
     animationDetails.displayType = 2
   }
 
